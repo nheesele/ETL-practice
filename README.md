@@ -52,3 +52,6 @@ Current cleaning steps:
 pip install pandas openpyxl sqlalchemy pymysql
 ### Run the pipeline
 python etl.py
+
+## Visit the related Google Colab:
+`https://colab.research.google.com/drive/19MTJ9W7zQJ3ctDzm9eE8ezmXX75ebWZ0?usp=sharing`
