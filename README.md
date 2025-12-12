@@ -1,13 +1,10 @@
-# ETL-practice
-A simple excercise for ETL
 # ETL Pipeline for Enrollies Data 
-![](https://github.com/nheesele/carbon_emission_analysis/blob/main/big_emission-_shutterstock_1871428867.jpg)
+![](https://github.com/nheesele/ETL-practice/blob/main/Data-Analyst.jpg))
 > Souce: https://thecore.co.in/wp-content/uploads/2025/09/Data-Analyst-Course-in-Chandigarh56.jpg
-**Author**: Nhi Le  
-**Course**: Data Engineering / ETL Practice  
+> 
+**Author**: Nhi Le  (nheesele)
+**Purpose**: ETL Practice  
 **Date**: December 2025
-
-https://thecore.co.in/wp-content/uploads/2025/09/Data-Analyst-Course-in-Chandigarh56.jpg
 
 ## Project Overview
 
