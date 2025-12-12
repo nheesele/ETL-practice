@@ -25,6 +25,7 @@ The goal is to create a reproducible, well-documented, and schedulable data pipe
 | Training Hours          | MySQL        | Remote DB (provided below)                        | enrollee_id, training_hours          |
 | Employment Status       | MySQL        | Remote DB (provided below)                               | enrollee_id, employed (0/1)           |
 | City Development Index  | HTML Table   | `https://www.google.com/url?q=https%3A%2F%2Fsca-programming-school.github.io%2Fcity_development_index%2Findex.html` | city, city_development_index         |
+
 **MySQL Database Details** 
 - Database type: MySQL  
 - Host: 112.213.86.31  
