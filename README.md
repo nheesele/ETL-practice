@@ -1,10 +1,13 @@
 # ETL Pipeline for Enrollies Data 
-![](https://github.com/nheesele/ETL-practice/blob/main/Data-Analyst.jpg))
+![](https://github.com/nheesele/ETL-practice/blob/main/Data-Analyst.jpg)
 > Souce: https://thecore.co.in/wp-content/uploads/2025/09/Data-Analyst-Course-in-Chandigarh56.jpg
-> 
-**Author**: Nhi Le  (nheesele)
-**Purpose**: ETL Practice  
+
+**Author**: Nhi Le (nheesele)
+
 **Date**: December 2025
+
+**Purpose**: ETL Practice  
+
 
 ## Project Overview
 
@@ -15,19 +18,17 @@ The goal is to create a **reproducible, well-documented, and schedulable** data 
 ## Data Sources
 
 | Source                  | Format      | URL / Connection                                       | Key Columns                          |
-|-------------------------|-------------|---------------------------------------------------------|--------------------------------------|
-| Enrollies basic info    | Google Sheet| `https://docs.google.com/spreadsheets/d/.../export?format=xlsx` | enrollee_id, full_name, city, gender |
-| Education               | Excel       | `enrollies_education.xlsx`                              | education_level, major_discipline    |
-| Work Experience         | CSV         | `work_experience.csv`                                   | experience, company_size, company_type |
-| Training Hours          | MySQL       | Remote DB (provided credentials)                        | enrollee_id, training_hours          |
-| Employment Status       | MySQL       | Same DB – table `employment`                            | enrollee_id, employed (0/1)           |
-| City Development Index  | HTML Table  | GitHub Pages                                            | city, city_development_index         |
-
-## Pipeline Steps (Explained)
+|-------------------------|--------------|---------------------------------------------------------|--------------------------------------|
+| Enrollies basic info    | Google Sheet | `https://docs.google.com/spreadsheets/d/.../export?format=xlsx` | enrollee_id, full_name, city, gender |
+| Education               | Excel        | `enrollies_education.xlsx`                              | education_level, major_discipline    |
+| Work Experience         | CSV          | `work_experience.csv`                                   | experience, company_size, company_type |
+| Training Hours          | MySQL        | Remote DB (provided credentials)                        | enrollee_id, training_hours          |
+| Employment Status       | MySQL        | Same DB – table `employment`                            | enrollee_id, employed (0/1)           |
+| City Development Index  | HTML Table   | GitHub Pages                                            | city, city_development_index         |
 
 ### 1. Extract
 - All sources are read using `pandas` appropriate readers.
-- Google Sheet is accessed publicly via `export?format=xlsx` (no auth needed).
+- Google Sheet is accessed publicly via `export?format=xlsx`.
 - MySQL connection uses `sqlalchemy` + `pymysql`.
 
 ### 2. Transform
@@ -43,11 +44,6 @@ Current cleaning steps:
 - Ready for Power BI, Tableau, or further merging in analysis phase
 
 ## How to Run
-
-```bash
-# Clone repo
-git clone https://github.com/nhile-data/etl-enrollies-pipeline.git
-cd etl-enrollies-pipeline
 
 # Install dependencies
 pip install pandas openpyxl sqlalchemy pymysql
