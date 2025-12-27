@@ -2,13 +2,6 @@
 ![](https://github.com/nheesele/ETL-practice/blob/main/Data-Analyst.jpg)
 > Souce: https://thecore.co.in/wp-content/uploads/2025/09/Data-Analyst-Course-in-Chandigarh56.jpg
 
-**Author**: Nhi Le (nheesele)
-
-**Date**: December 2025
-
-**Purpose**: ETL Practice  
-
-
 ## Project Overview
 
 This project implements a complete **ETL (Extract → Transform → Load)** pipeline that collects data about enrolled students (enrollies) from **6 different data sources**, cleans and consolidates them into structured CSV files for further analysis or dashboard building.
@@ -48,5 +41,13 @@ Current cleaning steps:
 - Saves each dataset as clean CSV in `/output` folder
 - Ready for Power BI, Tableau, or further merging in analysis phase
 
-## Visit the related Google Colab:
-[ETL practice]`https://colab.research.google.com/drive/19MTJ9W7zQJ3ctDzm9eE8ezmXX75ebWZ0?usp=sharing`
+## Google Colab:
+
+You can assess the related Google Colab link as below:
+[ETL practice](https://colab.research.google.com/drive/19MTJ9W7zQJ3ctDzm9eE8ezmXX75ebWZ0?usp=sharing)
+
+**Author**: Nhi Le (nheesele)
+
+**Date**: December 2025
+
+**Purpose**: ETL Practice  
