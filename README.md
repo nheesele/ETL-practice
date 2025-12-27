@@ -44,6 +44,7 @@ Current cleaning steps:
 ## Google Colab:
 
 You can assess the related Google Colab link as below:
+
 [ETL practice](https://colab.research.google.com/drive/19MTJ9W7zQJ3ctDzm9eE8ezmXX75ebWZ0?usp=sharing)
 
 **Author**: Nhi Le (nheesele)
