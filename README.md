@@ -47,11 +47,6 @@ Current cleaning steps:
 ### 3. Load
 - Saves each dataset as clean CSV in `/output` folder
 - Ready for Power BI, Tableau, or further merging in analysis phase
-## How to Run
-### Install dependencies
-pip install pandas openpyxl sqlalchemy pymysql
-### Run the pipeline
-python etl.py
 
 ## Visit the related Google Colab:
-`https://colab.research.google.com/drive/19MTJ9W7zQJ3ctDzm9eE8ezmXX75ebWZ0?usp=sharing`
+[ETL practice]`https://colab.research.google.com/drive/19MTJ9W7zQJ3ctDzm9eE8ezmXX75ebWZ0?usp=sharing`
